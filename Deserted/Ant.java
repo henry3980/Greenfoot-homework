@@ -37,6 +37,7 @@ public class Ant extends Actor
         Desert World;
         World=(Desert)getWorld();
         World.removeObject(Grass);
+        Greenfoot.playSound("pop.wav");
     }
 }
 }

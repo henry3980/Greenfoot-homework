@@ -65,5 +65,7 @@ public class Desert extends World
         addObject(grass15, 6, 5);
         Grass grass16 = new Grass();
         addObject(grass16, 5, 5);
+        Counter counter = new Counter();
+        addObject(counter, 0, 0);
     }
 }
