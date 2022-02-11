@@ -30,6 +30,13 @@ public class Ant extends Actor
         setRotation(270);
         move(1);
     }
-    
+    Actor Grass;
+    Grass=getOneObjectAtOffset(0,0,Grass.class);
+    if (Grass!=null)
+    {
+        Desert World;
+        World=(Desert)getWorld();
+        World.removeObject(Grass);
+    }
 }
 }
